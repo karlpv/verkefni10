@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gray-100 shadow-md py-4 w-full text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-xl font-semibold">GEGGJAÐ VEÐUR APP</h2>
+            <button id="dark-mode-toggle" class="mt-2 px-4 py-2 bg-gray-400 text-white rounded-md">
+                Dark Mode
+            </button>
+        </div>
+    </header>
+    <div class="flex flex-1 flex-col items-center justify-center">
+        <div class="text-center mt-10">
+            <h1 class="text-4xl font-bold mb-4" id="location">City Name, Country Code</h1>
+            <div class="mb-2">Temperature: <span id="temperature" class="text-2xl font-semibold"></span></div>
+            <div>Weather Description: <span id="description" class="text-lg"></span></div>
+            <div>Wind: <span id="wind" class="text-lg"></span></div>
+            <div>Humidity: <span id="humidity" class="text-lg"></span>%</div>
+            <div>Pressure: <span id="pressure" class="text-lg"></span> hPa</div>
+            <div>UV Index: <span id="uv_index" class="text-lg"></span></div>
+            <div>Visibility: <span id="visibility" class="text-lg"></span> km</div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
