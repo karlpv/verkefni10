@@ -4,7 +4,7 @@
   "description": "Hópverkefni 2  Carlos og Ragnarok",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -a public/styles.css"
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
