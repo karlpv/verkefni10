@@ -1,13 +1,11 @@
-// Function to fetch weather data based on location
+// Fall sem Fetchar vedurupplysingar af location 
 function fetchWeather(location) {
-  // API URL with the location parameter
+  // api URLid sem hefur location variable.
   const apiUrl = `http://api.weatherstack.com/current?access_key=e7215c37f80a97a9d13196e916f204bb&query=${location}`;
 
-  // Fetch weather data
   fetch(apiUrl)
     .then((response) => response.json())
     .then((data) => {
-      // Update HTML content with weather data
       const temperatureElement = document.getElementById("temperature");
       const descriptionElement = document.getElementById("description");
       const locationElement = document.getElementById("location");
@@ -28,21 +26,20 @@ function fetchWeather(location) {
       console.error("FINN EKKI WEATHER-DATA:", error);
     });
 }
-
-// Button click event listeners
-document.getElementById("reykjavik-btn").addEventListener("click", function () {
+// Fer i location og notar parameters Reykjavik,IS
+document.getElementById("reykjavik").addEventListener("click", function () {
   fetchWeather("Reykjavik,IS");
 });
 
-document.getElementById("london-btn").addEventListener("click", function () {
+document.getElementById("tokyo").addEventListener("click", function () {
   fetchWeather("Tokyo,JP");
 });
 
-document.getElementById("paris-btn").addEventListener("click", function () {
+document.getElementById("manila").addEventListener("click", function () {
   fetchWeather("Manila,PH");
 });
 
-
+//
 document.getElementById("invert").addEventListener("click", function () {
   if (document.body.style.filter === "invert(100%)") {
     document.body.style.filter = "none";
