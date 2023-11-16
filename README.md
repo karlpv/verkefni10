@@ -1,16 +1,21 @@
 # verkefni10
 
-Verkefni10, Simple Veður-app með Darkmode(Invert Color) takki.
+Verkefni10, Einfalt Veður-app.
 
-## Nota Weatherstack api, sem gefur Reykjavik,IS weather conditions
+## Features
 
-- [Weatherstack api](http://weatherstack.com)
-- Sýna hvaða gögn / hvernig api virikar
+- **Real-Time Veður upplysingar**:Hitastig, Vindur, humidity, pressure, UV index, and visibility 
+- **Multi-Location Support**: Access weather information for Reykjavik (IS), Tokyo (JP), and Manila (PH) at a click of a button.
+- **Invert litir**:Invert colors.
+- **Responsive**: Mobile Responsive
 
----
+## Notkun
 
-## Tailwind CSS Framework fyrir styling
+1. **Veldu staðsetning**:Veldu á milli Reykjavik,Tokyo eða Manila.
+2. **Invert takki**: Takki "Invert Color" reyndi að herma eftir darkmode virkni.
 
-- [Tailwind CSS](https://tailwindcss.com/docs/installation)
-- Sýna hvernig við notum/settum þetta tol up
-- Font-Awesome fyrir Icons
+## Tól
+
+- **Weatherstack API**: real-time veður upplysingar.
+- **Tailwind CSS**: fyrir frontend utlit.
+- **Font Awesome**: fyrir scalable icons.
