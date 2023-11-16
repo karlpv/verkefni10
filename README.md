@@ -1,5 +1,5 @@
 # verkefni10
-
+[NETLIFY](https://gyat.netlify.app/)
 Verkefni10, Einfalt Veður-app.
 
 ## Features
