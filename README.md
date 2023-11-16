@@ -5,7 +5,6 @@ Verkefni10, Einfalt Veður-app.
 ## Features
 
 - **Real-Time Veður upplysingar**:Hitastig, Vindur, humidity, pressure, UV index, and visibility 
-- **Multi-Location Support**: Access weather information for Reykjavik (IS), Tokyo (JP), and Manila (PH) at a click of a button.
 - **Invert litir**:Invert colors.
 - **Responsive**: Mobile Responsive
 
