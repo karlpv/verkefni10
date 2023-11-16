@@ -1,7 +1,7 @@
 // Fall sem Fetchar vedurupplysingar af location 
 function fetchWeather(location) {
   // api URLid sem hefur location variable.
-  const apiUrl = `http://api.weatherstack.com/current?access_key=e7215c37f80a97a9d13196e916f204bb&query=${location}`;
+  const apiUrl = `https://api.weatherstack.com/current?access_key=e7215c37f80a97a9d13196e916f204bb&query=${location}`;
 
   fetch(apiUrl)
     .then((response) => response.json())
